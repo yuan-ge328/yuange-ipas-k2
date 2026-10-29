@@ -34,3 +34,20 @@
 .learn-toolbar{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:12px 0}.learn-toolbar select{background:white;border:1px solid var(--border);border-radius:8px;padding:8px 10px;color:var(--ink)}.learn-toolbar input{width:100%;max-width:230px;padding:8px 10px;border:1px solid var(--border);border-radius:8px}
 .learn-progress{font-weight:900;color:#31816e}.qa-option{width:100%;display:flex;gap:8px;padding:9px;margin:7px 0;background:#fff;border:1px solid var(--border);border-radius:9px;text-align:left;color:var(--ink)}.qa-option.selected{border-color:#478bb0;background:#ebf5fc}.qa-answer{padding:10px;background:#ecf7f2;border-radius:9px;font-size:13px;margin-top:9px}
 @media(max-width:390px){.lesson-list{grid-template-columns:1fr}.learn-toolbar input{max-width:100%}}
+
+/* V2.1 精簡首頁：清楚的單一開始按鈕＋四步驟狀態，不重複底部功能 */
+.daily-plan{margin-top:14px}
+.daily-current{background:#f1f8fb;border:1px solid #d7e9ef;border-radius:13px;padding:11px 13px;margin:12px 0 11px;color:#2b5b76}
+.daily-current strong,.daily-current small{display:block}
+.daily-current strong{font-size:14px}
+.daily-current small{font-size:12px;color:#668294;margin-top:3px}
+.daily-start{font-size:16px;background:linear-gradient(105deg,#428fc4,#399f99);min-height:52px;display:flex;align-items:center;justify-content:center;gap:10px;box-shadow:0 7px 16px rgba(48,124,154,.14)}
+.daily-start span{font-size:23px;line-height:1}
+.daily-steps{margin-top:15px}
+.daily-steps .daily-step{cursor:default;margin:7px 0;min-height:57px;padding:11px 12px;background:#fbfdfe}
+.daily-steps .daily-step.next{border-color:#87c3b3;background:#f0faf6}
+.daily-steps .daily-step.done{background:#f2faf6}
+.daily-steps .step-go{font-size:11px;white-space:nowrap;font-weight:700;color:#6f8b97}
+.daily-steps .daily-step.next .step-go{color:#2f9074}
+.daily-steps .daily-step.done .step-go{color:#2a8169}
+@media(max-width:430px){.daily-plan{padding:15px}.daily-steps .daily-step{min-height:54px}.daily-start{min-height:50px}}
