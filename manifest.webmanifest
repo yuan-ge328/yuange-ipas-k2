@@ -1,7 +1,7 @@
 {
-  "name": "源格｜科目二衝刺教室 V1.1",
+  "name": "源格 YuanGe｜iPAS 科目二智慧衝刺教室 V2.0",
   "short_name": "源格科目二",
-  "description": "官方50題費曼解析與12題Python逐行／情境判讀；90分鐘模考、錯題追蹤",
+  "description": "26 Unit、14 招 Python、38 道原創情境題、官方50題與90分鐘模考、費曼解析及錯題回補",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
